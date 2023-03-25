@@ -1,0 +1,23 @@
+{
+  "name": "my-electron-app",
+  "version": "1.0.0",
+  "description": "Hello World!!!",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wangqi2002/my-electron-app.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/wangqi2002/my-electron-app/issues"
+  },
+  "homepage": "https://github.com/wangqi2002/my-electron-app#readme",
+  "devDependencies": {
+    "electron": "^23.2.0"
+  }
+}
