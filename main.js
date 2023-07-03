@@ -7,14 +7,15 @@ const path = require('path')
 const createWindow = () => {
     // 创建浏览窗口
     const mainWindow = new BrowserWindow({
-        width: 800,
-        height: 600,
+        width: 1000,
+        height: 700,
         webPreferences: {
             preload: path.join(__dirname, 'preload.js')
         }
     })
 
     // 加载 index.html
+    mainWindow.maximize()
     mainWindow.loadFile('index.html')
 
     // 打开开发工具
